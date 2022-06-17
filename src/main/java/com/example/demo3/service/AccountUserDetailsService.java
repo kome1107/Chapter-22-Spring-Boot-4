@@ -7,8 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.example.demo3.data.entity.Users;
-
-import om.example.demo3.data.repository.UsersRepository;
+import com.example.demo3.data.repository.UsersRepository;
 
 @Service // Spring管理Beanであることを指定
 public class AccountUserDetailsService implements UserDetailsService {
